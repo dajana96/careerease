@@ -10,11 +10,7 @@
             Find or post Laravel jobs & projects
         </p>
         <div>
-<<<<<<< HEAD
             <a href="/login"
-=======
-            <a href="/careerease/public/login"
->>>>>>> 0314009a2d8d830c2123b868647f20c08fadcd32
                 class="inline-block border-2 border-white text-white py-2 px-4 rounded-xl uppercase mt-2 hover:text-black hover:border-black">Sign
                 Up to List</a>
         </div>
