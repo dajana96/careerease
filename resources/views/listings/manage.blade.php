@@ -13,12 +13,12 @@
                     @foreach ($listings as $listing)
                         <tr class="border-gray-300">
                             <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                                <a href="/careerease/public/listings/{{$listing->id}}">
+                                <a href="/listings/{{$listing->id}}">
                                     {{ $listing->title }}
                                 </a>
                             </td>
                             <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                                <a href="/careerease/public/listings/{{$listing->id}}/edit" class="text-blue-400 px-6 py-2 rounded-xl"><i
+                                <a href="/listings/{{$listing->id}}/edit" class="text-blue-400 px-6 py-2 rounded-xl"><i
                                         class="fa-solid fa-pen-to-square"></i>
                                     Edit</a>
                             </td>
